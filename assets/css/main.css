@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --primary-dark: #071793;
+  --primary-medium: #4B6382;
+  --primary-light: #A4B5CA;
+  --background-light: #CDD5DB;
+  --accent-brown: #A68868;
+  --accent-gold: #E3C39D;
+}
+
+body {
+  background-color: var(--background-light);
+  font-family: 'Inter', sans-serif;
+  color: var(--primary-dark);
+}
+
+/* Estilos personalizados para componentes */
+.btn-primary {
+  background-color: var(--primary-dark);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-medium);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(7, 23, 147, 0.3);
+}
+
+.btn-secondary {
+  background-color: var(--accent-brown);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: var(--accent-gold);
+  color: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(7, 23, 147, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(7, 23, 147, 0.15);
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-medium) 100%);
+}
+
+.gradient-accent {
+  background: linear-gradient(135deg, var(--accent-brown) 0%, var(--accent-gold) 100%);
+}
