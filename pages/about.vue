@@ -20,7 +20,7 @@
           <div>
             <h2 class="text-3xl font-bold text-[#071793] mb-6">Nuestra Historia</h2>
             <p class="text-[#4B6382] mb-4 text-lg">
-              InmobiEasy nació en 2008 con una misión clara: hacer que encontrar el hogar perfecto 
+              InmobiEasy nació en 2024 con una misión clara: hacer que encontrar el hogar perfecto 
               sea fácil, transparente y emocionante. Comenzamos como una pequeña agencia local y 
               hoy somos una de las empresas inmobiliarias más confiables del país.
             </p>
