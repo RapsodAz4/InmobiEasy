@@ -3,7 +3,8 @@
     <div class="container mx-auto px-6 py-4">
       <div class="flex justify-between items-center">
         <!-- Logo y nombre -->
-        <div class="flex items-center space-x-3">
+        <NuxtLink to="/" >
+          <div class="flex items-center space-x-3">
           <div class="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
             <span class="text-[#071793] font-bold text-xl">🏠</span>
           </div>
@@ -12,6 +13,7 @@
             <p class="text-[#A4B5CA] text-sm">Tu hogar ideal está aquí</p>
           </div>
         </div>
+        </NuxtLink>
 
         <!-- Navegación desktop -->
         <nav class="hidden md:flex space-x-8">
@@ -24,7 +26,7 @@
           </NuxtLink>
           <NuxtLink 
             to="/propiedades" 
-            class="text-white hover:text-[#E3C39D] transition-colors duration-300 font-medium"
+            class="text-white hover:text-[#eeebe8] transition-colors duration-300 font-medium"
             active-class="text-[#E3C39D] border-b-2 border-[#E3C39D]"
           >
             Propiedades
@@ -55,7 +57,7 @@
         <!-- Menú móvil -->
         <button 
           @click="toggleMenu"
-          class="md:hidden text-white p-2 hover:bg-white hover:bg-opacity-10 rounded-lg transition-colors duration-300"
+          class="md:hidden text-white p-2 hover:bg-blue-600 hover:bg-opacity-10 rounded-lg transition-colors duration-300"
         >
           <svg 
             class="w-6 h-6" 
@@ -91,32 +93,32 @@
           <NuxtLink 
             to="/" 
             @click="closeMenu"
-            class="text-white hover:text-[#E3C39D] transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-white hover:bg-opacity-10"
-            active-class="text-[#E3C39D] bg-white bg-opacity-10"
+            class="text-white hover:text-[#E3C39D] transition-colors duration-300 font-medium py-2 px-4 rounded-lg  hover:bg-opacity-10"
+            active-class="text-[#E3C39D]  bg-opacity-10"
           >
             🏠 Inicio
           </NuxtLink>
           <NuxtLink 
             to="/propiedades" 
             @click="closeMenu"
-            class="text-white hover:text-[#E3C39D] transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-white hover:bg-opacity-10"
-            active-class="text-[#E3C39D] bg-white bg-opacity-10"
+            class="text-white hover:text-[#E3C39D] transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-opacity-10"
+            active-class="text-[#E3C39D]  bg-opacity-10"
           >
             🏢 Propiedades
           </NuxtLink>
           <NuxtLink 
             to="/about" 
             @click="closeMenu"
-            class="text-white hover:text-[#E3C39D] transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-white hover:bg-opacity-10"
-            active-class="text-[#E3C39D] bg-white bg-opacity-10"
+            class="text-white hover:text-[#E3C39D] transition-colors duration-300 font-medium py-2 px-4 rounded-lg  hover:bg-opacity-10"
+            active-class="text-[#E3C39D]  bg-opacity-10"
           >
             ℹ️ Nosotros
           </NuxtLink>
           <NuxtLink 
             to="/contact" 
             @click="closeMenu"
-            class="text-white hover:text-[#E3C39D] transition-colors duration-300 font-medium py-2 px-4 rounded-lg hover:bg-white hover:bg-opacity-10"
-            active-class="text-[#E3C39D] bg-white bg-opacity-10"
+            class="text-white hover:text-[#E3C39D] transition-colors duration-300 font-medium py-2 px-4 rounded-lg  hover:bg-opacity-10"
+            active-class="text-[#E3C39D]  bg-opacity-10"
           >
             📞 Contacto
           </NuxtLink>

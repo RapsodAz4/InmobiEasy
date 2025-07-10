@@ -284,8 +284,8 @@ const propiedades = ref([
   {
     id: 1,
     titulo: 'Casa Moderna en Polanco',
-    ubicacion: 'Polanco, CDMX',
-    precio: 2500000,
+    ubicacion: 'Puerto El Triunfo',
+    precio: 350000,
     operacion: 'venta',
     tipo: 'casa',
     recamaras: 3,
@@ -298,7 +298,7 @@ const propiedades = ref([
   {
     id: 2,
     titulo: 'Departamento de Lujo en Condesa',
-    ubicacion: 'Condesa, CDMX',
+    ubicacion: 'San Benito / San Salvador',
     precio: 25000,
     operacion: 'renta',
     tipo: 'departamento',
@@ -312,7 +312,7 @@ const propiedades = ref([
   {
     id: 3,
     titulo: 'Casa Familiar en Lomas',
-    ubicacion: 'Lomas de Chapultepec, CDMX',
+    ubicacion: 'Lomas Lindas / Sonsonate',
     precio: 4200000,
     operacion: 'venta',
     tipo: 'casa',
@@ -326,7 +326,7 @@ const propiedades = ref([
   {
     id: 4,
     titulo: 'Oficina Ejecutiva en Reforma',
-    ubicacion: 'Reforma, CDMX',
+    ubicacion: 'Reforma, Redondel Constitucion',
     precio: 35000,
     operacion: 'renta',
     tipo: 'oficina',
@@ -339,8 +339,8 @@ const propiedades = ref([
   },
   {
     id: 5,
-    titulo: 'Terreno Residencial en Cuajimalpa',
-    ubicacion: 'Cuajimalpa, CDMX',
+    titulo: 'Terreno Residencial',
+    ubicacion: 'Cerca de Cascadas Mall, San Salvador',
     precio: 1800000,
     operacion: 'venta',
     tipo: 'terreno',
@@ -354,7 +354,7 @@ const propiedades = ref([
   {
     id: 6,
     titulo: 'Loft Industrial en Roma',
-    ubicacion: 'Roma Norte, CDMX',
+    ubicacion: 'Roma Norte, Sivar',
     precio: 18000,
     operacion: 'renta',
     tipo: 'departamento',
@@ -367,8 +367,8 @@ const propiedades = ref([
   },
   {
     id: 7,
-    titulo: 'Casa Colonial en Coyoacán',
-    ubicacion: 'Coyoacán, CDMX',
+    titulo: 'Casa Colonial en La Libertad',
+    ubicacion: 'La Libertad',
     precio: 3800000,
     operacion: 'venta',
     tipo: 'casa',
@@ -382,7 +382,7 @@ const propiedades = ref([
   {
     id: 8,
     titulo: 'Penthouse en Santa Fe',
-    ubicacion: 'Santa Fe, CDMX',
+    ubicacion: 'Santa Fe, Cuscatlan',
     precio: 85000,
     operacion: 'renta',
     tipo: 'departamento',
@@ -396,7 +396,7 @@ const propiedades = ref([
   {
     id: 9,
     titulo: 'Casa Contemporánea en Pedregal',
-    ubicacion: 'Pedregal, CDMX',
+    ubicacion: 'El Pino / San Salvador',
     precio: 5200000,
     operacion: 'venta',
     tipo: 'casa',

@@ -28,8 +28,8 @@
                 </div>
                 <div>
                   <h3 class="text-lg font-semibold text-[#071793]">Oficina Principal</h3>
-                  <p class="text-[#4B6382]">Av. Reforma 123, Col. Centro</p>
-                  <p class="text-[#4B6382]">Ciudad de México, CDMX 06000</p>
+                  <p class="text-[#4B6382]">Nueva Guadalupe, San Miguel</p>
+                  <p class="text-[#4B6382]">San Miguel, C987</p>
                 </div>
               </div>
             </div>
@@ -41,7 +41,7 @@
                 </div>
                 <div>
                   <h3 class="text-lg font-semibold text-[#071793]">Teléfono</h3>
-                  <p class="text-[#4B6382]">+52 (55) 1234-5678</p>
+                  <p class="text-[#4B6382]">+503 7586-6244</p>
                   <p class="text-[#4B6382]">Lun - Vie: 9:00 AM - 6:00 PM</p>
                 </div>
               </div>
@@ -67,7 +67,7 @@
                 </div>
                 <div>
                   <h3 class="text-lg font-semibold text-[#071793]">WhatsApp</h3>
-                  <p class="text-[#4B6382]">+52 (55) 9876-5432</p>
+                  <p class="text-[#4B6382]">+503 7586-6244</p>
                   <p class="text-[#4B6382]">Respuesta en menos de 1 hora</p>
                 </div>
               </div>
@@ -140,7 +140,7 @@
                 v-model="form.telefono"
                 type="tel" 
                 class="w-full p-3 border border-[#A4B5CA] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#071793]"
-                placeholder="+52 (55) 1234-5678"
+                placeholder="+503 7586-6244"
               >
             </div>
 
@@ -196,20 +196,17 @@
     </div>
 
     <!-- Mapa -->
-    <div class="bg-white py-16">
-      <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-[#071793] mb-8 text-center">Nuestra Ubicación</h2>
-        <div class="card p-8">
-          <div class="w-full h-64 bg-gradient-to-br from-[#A4B5CA] to-[#4B6382] rounded-lg flex items-center justify-center">
-            <div class="text-center text-white">
-              <span class="text-6xl mb-4 block">🗺️</span>
-              <p class="text-xl">Mapa interactivo</p>
-              <p class="text-sm opacity-80">Av. Reforma 123, Col. Centro, CDMX</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div class="w-full max-w-3xl mx-auto rounded-lg overflow-hidden aspect-video">
+  <iframe
+    class="w-full h-full"
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7758.112711901948!2d-88.35033!3d13.532133!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f7b32ce8011f141%3A0x69a3d51d9770508b!2sParque%20de%20Nueva%20Guadalupe!5e0!3m2!1ses-419!2ssv!4v1752105489465!5m2!1ses-419!2ssv"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
   </div>
 </template>
 
